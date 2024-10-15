@@ -1,0 +1,67 @@
+.containerin img {
+  border-radius:20px ;
+  border-style: solid;
+  border-width: 5px;
+  border-color: firebrick;
+}
+
+.containerin img:hover {
+  width: 100px;
+  height: 100px;
+}
+
+.containerin .hover-img:hover {
+  width: 200px;
+  height: 300px;
+}
+
+.center {
+  text-align: center;
+}
+
+.picture {
+  border-radius:20px ;
+  border-style: solid;
+  border-width: 5px;
+  border-color: firebrick;
+}
+.nav a{
+  
+  border: solid;
+  border-radius:20px;
+  border-color: red;
+  
+}
+
+.math{
+  border-radius:20px;
+  max-width: 50px;
+}
+.music{
+  border: solid;
+  border-radius:100px;
+  border-width: 5px;
+  max-width: 300px;
+  padding: 0px;
+  
+}
+body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; 
+}
+ audio {
+            margin-top: auto; 
+ }
+.info {
+            background: transparent;
+            color: red;
+            padding: 60px;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 50%;
+            text-align: center;   
+  
+        }
